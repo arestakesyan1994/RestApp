@@ -2,7 +2,8 @@
 SQLyog Ultimate v12.09 (64 bit)
 MySQL - 5.7.21-log : Database - restapp
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -33,7 +34,13 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`name`,`surname`,`email`,`password`,`type`,`age`) values (5,'Admin ','Admin','admin@mail.ru','admin','USER',20),(6,'Admin ','Adminyan','admin@mail.ru','poxos','MANAGER',20),(7,'Jon ','Do','j@mail.ru','jon','USER',22),(8,'Jek ','Do','j@mail.ru','jonik','USER',22),(9,'Poxosuhi ','Poxosyan','poxmail.ru','jonjon','MANAGER',25),(10,'Poxosik ','Poxosyan','pox@mail.ru','$2a$10$414jxzYohUPnxeoZtTVRNut//kUZ/ZetWhl2mu40UAZVvCfoewJNe','MANAGER',25);
+insert  into `user`(`id`,`name`,`surname`,`email`,`password`,`type`,`age`)
+ values (5,'Admin ','Admin','admin@mail.ru','admin','USER',20),
+(6,'Admin ','Adminyan','admin@mail.ru','poxos','MANAGER',20),
+(7,'Jon ','Do','j@mail.ru','jon','USER',22),
+(8,'Jek ','Do','j@mail.ru','jonik','USER',22),
+(9,'Poxosuhi ','Poxosyan','poxmail.ru','jonjon','MANAGER',25),
+(10,'Poxosik ','Poxosyan','pox@mail.ru','$2a$10$414jxzYohUPnxeoZtTVRNut//kUZ/ZetWhl2mu40UAZVvCfoewJNe','MANAGER',25);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
