@@ -20,7 +20,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserController {
+public class  UserController {
 
     @Autowired
     private UserRepository userRepository;

@@ -102,7 +102,7 @@ public class JwtTokenUtil implements Serializable {
         final String username = getUsernameFromToken(token);
         final Date created = getIssuedAtDateFromToken(token);
         return (username.equals(email)
-                        && !isTokenExpired(token));
+                && !isTokenExpired(token));
     }
 
     private Date calculateExpirationDate(Date createdDate) {
